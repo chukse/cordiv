@@ -69,8 +69,8 @@ def calculate_entropy(data_array):
 def main(argv = sys.argv):
 	alignment_counter = 0
 	if len( sys.argv ) != 3:
-		print 
-		print "Usage:     ", sys.argv[0], "<input alignment>", "<output entropy file>"
+		print ()
+		print ("Usage:     ", sys.argv[0], "<input alignment>", "<output entropy file>")
 	else:
 		alignment_file = sys.argv[1]
 		outfile = sys.argv[2]
